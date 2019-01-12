@@ -1,8 +1,7 @@
-#Seun Onile-ere
-#27/05/17
-#This program is being created so that the user's data can be registered for each player attempting to enter the Fireside Annual Card Gaming Leauge,
-#subsequently displaying the personal details and information in the appropriate format.
-#Task 1: Fireside_Register_Player
+Seun Onile-ere
+27/05/17
+This program is being created so that the user's data can be registered for each player attempting to enter the Fireside Annual Card Gaming Leauge, subsequently displaying the personal details and information in the appropriate format.
+Task 1: Fireside_Register_Player
 
     #States that as long as the variable 'request' equates to the value 'True', the code wil continue to run
     request = True
