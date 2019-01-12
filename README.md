@@ -1,10 +1,13 @@
 # Fireside-Application-Program
 A program that facilitates data collection for a hypothetical Card Gaming League.
+
 #Seun Onile-ere
-#27/05/17
 #This program is being created so that the user's data can be registered for each player attempting to enter the Fireside Annual Card Gaming Leauge,
 #subsequently displaying the personal details and information in the appropriate format.
+
 #Task 1: Fireside_Register_Player
+
+
 
 def Register():
     #States that as long as the variable 'request' equates to the value 'True', the code wil continue to run
@@ -12,7 +15,6 @@ def Register():
     while request == True:
     #Displays the welcome message that associates the player with the context of the program    
      print ('---------->>>Welcome to the Fireside Leauge Registration<<<---------- \n')
-
     #States that the user input in response to the prompt will be equal to the letters in the original response but in lower case
      First_Name = input('Please enter your First Name. \n')
      First_Name = First_Name.lower()
@@ -39,7 +41,6 @@ def Register():
      Nick_Name = input('Please enter your Nick Name.  \n')
      while Nick_Name == '':
          Nick_Name = input('Unfortunately this input does not contain any notable data; please re-enter your Nick Name:  \n')
-     
     #Imports 're' (Regular Expression) to specifiy a set of strings that matches it for the email validation, subsequently defining the function 'email'
      import re
      def email():
@@ -60,7 +61,6 @@ def Register():
                  print('Please input the appropriate syntax.  \n')
     #This closes the previously defined function 'email', ending the email validation segment of the program             
      email()
-            
     #Creates a while loop pertaining to a duration in time whilst the variable 'valid' is equal to the value 'False'   
      valid = False
      while valid == False:
@@ -76,11 +76,9 @@ def Register():
     #If the user input equates to neither 'E' or 'C', anything besides the options given will cause the program to request another input, finalising the skill level segment of the program.
          else:
              Skill_Level = input('Please enter either C or E to illustrate your level of experience.  \n')
-         
     #This prints the user inputted values of each the variables as follows: 'First_Name','Last_Name','Nick_Name' and 'Skill_Level', with the variable 'Email_Address' already having been printed    
      print (First_Name, Last_Name, Nick_Name, Skill_Level)
      print ('Your Email Address has already been outputted above, in correlation with the message: "This email contains the appropriate syntax".  \n')
-
     #Creates a while loop pertaining to a duration in time whilst the variable 'valid' is equal to the value 'False'
      valid = False
      while valid == False:
